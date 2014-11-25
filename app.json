@@ -3,5 +3,19 @@
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/heroku/node-js-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "hello",
+      "generator": "secret"
+    },
+    "FOO": {
+      "description": "hi",
+      "value": "5"
+    },
+    "BAR": {
+      "description": "bar",
+      "value": "blaf"
+    }
+  }
 }
