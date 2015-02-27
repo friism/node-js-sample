@@ -1,0 +1,10 @@
+{
+  "name":"hidden-brook-4638",
+  "scripts":{},
+  "env":{
+    "INHERIT_THIS_VALUE":{
+      "required":true
+    }
+  },
+  "addons":[]
+}
