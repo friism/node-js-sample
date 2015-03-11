@@ -1,0 +1,10 @@
+{
+  "name":"node-js-sample",
+  "scripts":{},
+  "env":{},
+  "addons":[
+    "deployhooks:http",
+    "pgbackups:plus",
+    "heroku-postgresql:hobby-dev"
+  ]
+}
