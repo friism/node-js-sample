@@ -1,0 +1,15 @@
+{
+  "name":"node-js-sample",
+  "scripts":{},
+  "env":{
+    "COOKIE_SECRET":{
+      "required":true
+    },
+    "INSTALLED_BY":{
+      "required":true
+    }
+  },
+  "addons":[
+    "heroku-postgresql"
+  ]
+}
